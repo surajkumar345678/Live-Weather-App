@@ -7,22 +7,22 @@ const weatherIcon = document.querySelector(".weather-icon");
 
 var input = document.getElementById("myInput");
 
-// Include the currentTime function
-function currentTime(timezoneInSec, dtIn) {
-    let utcTime = new Date(dtIn * 1000);  // Convert Unix timestamp to UTC time
-    let localTime = new Date(utcTime.getTime() + timezoneInSec * 1000);
+// // Include the currentTime function
+// function currentTime(timezoneInSec, dtIn) {
+//     let utcTime = new Date(dtIn * 1000);  // Convert Unix timestamp to UTC time
+//     let localTime = new Date(utcTime.getTime() + timezoneInSec * 1000);
 
-    let hour = localTime.getHours() % 12;
-    let ampm = hour >= 12 ? 'pm' : 'am';
-    hour = hour % 12 || 12;  // Ensure hour is in 12-hour format
+//     let hour = localTime.getHours() % 12;
+//     let ampm = hour >= 12 ? 'pm' : 'am';
+//     hour = hour % 12 || 12;  // Ensure hour is in 12-hour format
 
-    let minutes = localTime.getMinutes();
-    let weekday = localTime.toLocaleString('default', { weekday: 'long' });
-    let month = localTime.toLocaleString('default', { month: 'short' });
-    let date = localTime.getDate();
+//     let minutes = localTime.getMinutes();
+//     let weekday = localTime.toLocaleString('default', { weekday: 'long' });
+//     let month = localTime.toLocaleString('default', { month: 'short' });
+//     let date = localTime.getDate();
     
-    return `${hour} : ${minutes} ${ampm} - ${weekday}, ${month} ${date}`;
-}
+//     return `${hour} : ${minutes} ${ampm} - ${weekday}, ${month} ${date}`;
+// }
 
 
 
@@ -39,10 +39,10 @@ async function checkWeather(city) {
         const timezoneOffsetSeconds = data.timezone;
 
         // Use the timezone offset in the currentTime function
-        const localTime = currentTime(timezoneOffsetSeconds, data.dt);
+        // const localTime = currentTime(timezoneOffsetSeconds, data.dt);
 
         // Display local time along with other weather information
-        document.querySelector(".local-time").innerHTML = localTime;
+        // document.querySelector(".local-time").innerHTML = localTime;
 
         document.querySelector(".city").innerHTML = data.name;
         document.querySelector(".temp").innerHTML = Math.round(data.main.temp * 10) / 10 + "&#8451;";
