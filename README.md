@@ -1,7 +1,7 @@
 # Live-Weather-App
 [![Netlify Status](https://api.netlify.com/api/v1/badges/673e19f7-04be-408d-b9f9-9f286e45a06f/deploy-status)](https://app.netlify.com/sites/livweather/deploys)
 
-[Live Weather App](https://livweather.netlify.app/) is a simple and visually appealing Live Weather App built using HTML, CSS, and JavaScript. The app allows users to check the current weather conditions for any city around the world. It features a clean and responsive design, providing an intuitive interface for users to input city names and receive real-time weather updates. Utilizing the [OpenWeather](https://openweathermap.org/current) API, the app dynamically fetches real-time weather data and displays it in a visually appealing card format.
+[Live Weather App](https://livweather.netlify.app/) is a simple and visually appealing Live Weather App built using HTML, CSS, and JavaScript. The app allows users to check the current weather conditions for any city around the world. It features a clean and responsive design, providing an intuitive interface for users to input city names and receive real-time weather updates. Utilizing the [OpenWeatherMap](https://openweathermap.org/current) API, the app dynamically fetches real-time weather data and displays it in a visually appealing card format.
 
 **Screenshots**
 ![Screenshot (330)](https://github.com/surajkumar345678/Live-Weather-App/assets/60316890/b0b309ce-1545-4bac-b5ce-35ff47b744a0)
@@ -30,7 +30,7 @@ JavaScript
 
 **API:**
 
-[OpenWeather](https://openweathermap.org/current) API is integrated to fetch live weather data.
+[OpenWeatherMap](https://openweathermap.org/current) API is integrated to fetch live weather data.
 
 **How to Use:**
 
