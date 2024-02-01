@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box
 }
 
@@ -25,7 +27,7 @@ header {
     max-width: 26rem;
     background: rgba(255, 255, 255, .2);
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, .125);
+    border: 0.3rem solid rgba(255, 255, 255, .125);
     color: white;
     border-radius: 1rem;
     padding: 15px 25px;
@@ -46,13 +48,18 @@ header {
     border: 0;
     outline: 0;
     background: #ebfffc;
-    color: #555;
+    color: #1E3050;
+    font-weight: 500;
     padding: 1rem;
     border-radius: 1rem;
     flex: 1;
     margin-top: 1rem;
     margin-right: .8rem;
     font-size: 1.25rem
+}
+
+.search input::placeholder {
+    color: #1E3050;
 }
 
 .search button {
@@ -64,10 +71,6 @@ header {
     width: 3.5rem;
     height: 3.65rem;
     cursor: pointer
-}
-
-.search button img {
-    width: 1.25rem
 }
 
 .weather-icon {
@@ -98,9 +101,8 @@ header {
     text-align: left
 }
 
-.col img {
-    width: 2rem;
-    margin-right: 10px
+.col p {
+    margin-left: 10px
 }
 
 .humidity,
@@ -109,7 +111,7 @@ header {
 }
 
 .weather {
-    display: none
+    display: none;
 }
 
 .error {
