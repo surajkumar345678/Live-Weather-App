@@ -6,10 +6,13 @@
 }
 
 body {
-    background-color: bisque;
+    background-image: url("https://source.unsplash.com/random/?weather");
+    background-size:cover;
+    background-repeat: no-repeat;
+    
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,7 +22,9 @@ header{
 .card {
     width: 80%;
     max-width: 26rem;
-    background: linear-gradient(135deg, #00feba, #5b548a);
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.125); 
     color: white;
     margin: 3rem auto 0;
     border-radius: 1rem;
@@ -92,7 +97,6 @@ header{
 .col img {
     width: 2rem;
     margin-right: 10px;
-
 }
 
 .humidity,
@@ -112,6 +116,11 @@ header{
 }
 
 @media screen and (max-width: 600px) {
+    body{
+        height: 100%;
+        background-size: cover;
+    }
+    
     .card {
         padding: 40px 15px;
     }
@@ -119,7 +128,7 @@ header{
     .search {
         flex-direction: column;
     }
-    #myInput{
+    #myInput {
         margin-left: 1rem;
     }
 
