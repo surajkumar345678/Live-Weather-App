@@ -1,4 +1,4 @@
-![Screenshot (53)](https://github.com/surajkumar345678/Live-Weather-App/assets/60316890/1f896fea-68e0-4bb3-84df-592a21ef0d03)[![Netlify Status](https://api.netlify.com/api/v1/badges/673e19f7-04be-408d-b9f9-9f286e45a06f/deploy-status)](https://app.netlify.com/sites/livweather/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/673e19f7-04be-408d-b9f9-9f286e45a06f/deploy-status)](https://app.netlify.com/sites/livweather/deploys)
 
 # Live-Weather-App
 
