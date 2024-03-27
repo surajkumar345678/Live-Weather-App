@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/673e19f7-04be-408d-b9f9-9f286e45a06f/deploy-status)](https://app.netlify.com/sites/livweather/deploys)
+![Screenshot (53)](https://github.com/surajkumar345678/Live-Weather-App/assets/60316890/1f896fea-68e0-4bb3-84df-592a21ef0d03)[![Netlify Status](https://api.netlify.com/api/v1/badges/673e19f7-04be-408d-b9f9-9f286e45a06f/deploy-status)](https://app.netlify.com/sites/livweather/deploys)
 
 # Live-Weather-App
 
@@ -16,11 +16,15 @@ This project is a simple weather application built with HTML, CSS, and JavaScrip
 
 ### Screenshots:
 
-![Screenshot (330)](https://github.com/surajkumar345678/Live-Weather-App/assets/60316890/b0b309ce-1545-4bac-b5ce-35ff47b744a0)
+*Main Page:*
+![Screenshot (53)](https://github.com/surajkumar345678/Live-Weather-App/assets/60316890/6ff4d1b0-042f-43a2-a8ec-62a689caf7b4)
 
-![Screenshot (331)](https://github.com/surajkumar345678/Live-Weather-App/assets/60316890/d80b4dd1-0895-45f2-abe0-718b0ccc51e2)
+*Search Result:*
+![Screenshot (55)](https://github.com/surajkumar345678/Live-Weather-App/assets/60316890/b0eaff74-2637-4345-a961-36cecd728e96)
 
-![Screenshot (332)](https://github.com/surajkumar345678/Live-Weather-App/assets/60316890/f2e0b684-163a-4559-88c1-88b00533f1c6)
+*Invalid City:*
+![Screenshot (54)](https://github.com/surajkumar345678/Live-Weather-App/assets/60316890/1fc77f1a-660d-472e-8f09-456a5c4da3a9)
+
 
 ### Deployed Link:
 [Live Weather App](https://livweather.netlify.app/)
